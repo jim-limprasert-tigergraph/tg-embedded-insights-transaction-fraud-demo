@@ -78,20 +78,32 @@
             >
 			</iframe>
 
-            <h3>Getting Top Credit cards based on total transaction amount</h3>
+            <h3>Getting Top Credit cards based on total transaction amount or Number of Transactions.</h3>
             <p>
-                This table shows the top credit card based on the total transaction amounts that are made on those
-                credit cards. Unusually high total transaction amount can be something to look out for, as those
+                These two tables show the top credit cards based on the total transaction amounts that are made on those
+                credit cards and the total transaction numbers linked to it.
+                
+                Unusually high total transaction amount or transaction number can be something to look out for, as those
                 can be interpreted as a sign that a credit card is involved in a fraudulent transaction.
             </p>
 
-			<iframe
-                title="total-txn-amount"
-                src="https://tools.tgcloud.io/insights/app/jJDJH7ir5VrRETX1Zb4EDM/page/aWcES49wzQAbqhqAnTX3Qs/widgetShare/3qwAWAUFV5KU9ePKiKCYnu?domain=cluster-dev-demo-v3-10-1.i&orgName=tg_solution&clusterid=5fc45501-05a0-42d5-b15d-241f28b7fb74&TigerGraphToken=d450b8cf-2a15-4d12-b8e6-1b60882cecd2"
-                width="30%"
-                height="400"
-            >
-			</iframe>
+            <div>
+                <iframe
+                    title="total-txn-amount-table"
+                    src="https://tools.tgcloud.io/insights/app/jJDJH7ir5VrRETX1Zb4EDM/page/aWcES49wzQAbqhqAnTX3Qs/widgetShare/3qwAWAUFV5KU9ePKiKCYnu?domain=cluster-dev-demo-v3-10-1.i&orgName=tg_solution&clusterid=5fc45501-05a0-42d5-b15d-241f28b7fb74&TigerGraphToken=d450b8cf-2a15-4d12-b8e6-1b60882cecd2"
+                    width="30%"
+                    height="400"
+                >
+                </iframe>
+
+                <iframe
+                    title="total-txn-num-table"
+                    src="https://tools.tgcloud.io/insights/app/jJDJH7ir5VrRETX1Zb4EDM/page/55VMRALeGMiZZmjvHfHv8p/widgetShare/hYnMuQBjb12fqydSPEkxLo?domain=cluster-dev-demo-v3-10-1.i&orgName=tg_solution&clusterid=5fc45501-05a0-42d5-b15d-241f28b7fb74&TigerGraphToken=d450b8cf-2a15-4d12-b8e6-1b60882cecd2"
+                    width="30%"
+                    height="400"
+                >
+                </iframe>
+            </div>
 		</div>
 		<div>
             <h2>ROI-related Widgets</h2>
@@ -129,6 +141,26 @@
                 height="400"
             >
 			</iframe>
+
+            <h3>Top Fraudulent Activity Card</h3>
+            <p>
+                This table shows cards with at least one transaction fraud linked to it.
+                This allows you to see which card is associated with fraud more.
+                Fraud amount here ranges from lower than 50 dollars to more than 13000 dollars.
+
+                <br>
+                <br>
+
+                Sorting can be done on all fields - card number, fraud amount, and fraud count.
+            </p>
+            <iframe
+                title="top-fraudulent-activity-card"
+                src="https://tools.tgcloud.io/insights/app/pa92oogHeqGUQLz75kwRyL/page/5s79GAycUNW4mGAwYx45Fy/widgetShare/hxRkPCmkom4RtsvuanjV1a?domain=cluster-dev-demo-v3-10-1.i&orgName=tg_solution&clusterid=5fc45501-05a0-42d5-b15d-241f28b7fb74&TigerGraphToken=9b3a7774-1f1b-4d48-be54-94ade7f263d4"
+                width="40%"
+                height="500"
+            >
+
+            </iframe>
 
             <h3>Net Benefit of Using a Graph Database</h3>
             <p>
